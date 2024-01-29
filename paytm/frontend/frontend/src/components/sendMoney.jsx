@@ -7,6 +7,7 @@ export const SendMoney = () => {
     const[searchParams] = useSearchParams();
     const id = searchParams.get('id');
     const name = searchParams.get('name');
+    const surname = searchParams.get('surname');
     const [amount , setamount] = useState(0);
 
     return <div className="flex justify-center h-screen bg-gray-100">
@@ -22,7 +23,7 @@ export const SendMoney = () => {
                     <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center">
                     <span className="text-2xl text-white">{name[0]}</span>
                     </div>
-                    <h3 className="text-2xl font-semibold">{name}</h3>
+                    <h3 className="text-2xl font-semibold">{name + " " +  surname}</h3>
                 </div>
                 <div className="space-y-4">
                     <div className="space-y-2">
