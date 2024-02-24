@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dataBaseURL = "mongodb://localhost:27017/PaytmUsers";
+const dataBaseURL = "mongodb+srv://admin:Raki1234@cluster0.0sdg3xc.mongodb.net/PaytmUsers";
 mongoose.connect(dataBaseURL);
 
 //defining Schema 
