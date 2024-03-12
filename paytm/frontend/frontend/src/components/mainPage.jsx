@@ -8,7 +8,7 @@ export function MainPage() {
       <div className="flex flex-col">
         <div>
           <h1 className="text-center font-bold py-10 text-7xl animate-pulse">
-            Paytm payment application 
+            State Bank of India
           </h1>
         </div>
 

@@ -5,7 +5,7 @@ import { Dashboard } from './components/dashBoard';
 import { SendMoney } from './components/sendMoney';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { MainPage } from './components/mainPage';
-
+import Bank from './pages/bank';
 import './App.css';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/send' element={<SendMoney></SendMoney>}></Route>
+        <Route path='/bank' element={<Bank></Bank>}></Route>
         
       </Routes>
 
