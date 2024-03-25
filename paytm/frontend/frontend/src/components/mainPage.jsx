@@ -8,7 +8,7 @@ export function MainPage() {
       <div className="flex flex-col">
         <div>
           <h1 className="text-center font-bold py-10 text-7xl animate-pulse">
-            State Bank of India
+            Paytm transcation application
           </h1>
         </div>
 
@@ -24,11 +24,13 @@ export function MainPage() {
             <BottomWarning
               buttonText={"Sign Up"}
               to={"/signup"}
-            ></BottomWarning>
-            <BottomWarning
+            >
+              
+            </BottomWarning>
+            {/* <BottomWarning
               buttonText={"Sign In"}
               to={"/signin"}
-            ></BottomWarning>
+            ></BottomWarning> */}
           </div>
         </div>
 
